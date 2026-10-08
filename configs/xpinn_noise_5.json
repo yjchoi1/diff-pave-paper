@@ -1,0 +1,24 @@
+{
+  "noise_std": 5,
+  "lambda_phys": 1.0,
+  "lambda_data": 1000.0,
+  "hidden": 32,
+  "num_layers": 3,
+  "print_interval": 1000,
+  "plot_interval": 10000,
+  "checkpoint_interval": 1000,
+  "report_interval": 1000,
+  "tensorboard": true,
+  "max_iter": 10000,
+  "epochs": 40,
+  "resume": true,
+  "seed": 1,
+  "lbfgs_lr": 1.0,
+  "lbfgs_history_size": 200,
+  "save_dir": "Results/noise_5",
+  "true_moduli": {
+    "E_surface": 1378000000.0,
+    "E_base": 206000000.0,
+    "E_subgrade": 69000000.0
+  }
+}

@@ -1,0 +1,5 @@
+Results/
+figures/
+ray_results/
+__pycache__/
+*.pyc

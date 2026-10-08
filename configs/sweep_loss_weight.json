@@ -1,0 +1,12 @@
+{
+  "experiment_name": "xpinn_loss_weight_sweep",
+  "results_dir": "ray_results",
+  "base_config": "configs/xpinn_noise_0.json",
+  "search_space": {
+    "lambda_phys": [1.0],
+    "lambda_data": [1.0, 10.0, 100.0, 1000.0],
+    "hidden": [32],
+    "num_layers": [3],
+    "noise_std": [0]
+  }
+}
