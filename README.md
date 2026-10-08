@@ -4,7 +4,7 @@ This code shows how a differentiable solver (FEM) can solve inverse problems bet
 
 It accompanies the paper
 
-> Y. Choi, H. Moon, and S. Ryu. Critical evaluation of PINN for FWD inverse analysis and differentiable FEM as an alternative. (under review)
+> Y. Choi, H. Moon, and S. Ryu. Critical evaluation of PINN for FWD inverse analysis and differentiable FEM as an alternative. [arXiv:2606.03210](https://arxiv.org/abs/2606.03210)
 
 ## Problem setup
 
@@ -55,7 +55,19 @@ Iteration counts can differ slightly across hardware and PyTorch versions.
 
 ## Citation
 
-If you use this code, please cite the paper above. The full reference will be added after publication.
+If you use this code, please cite
+
+```bibtex
+@misc{choi2026criticalevaluationpinnfwd,
+      title={Critical evaluation of PINN for FWD inverse analysis and differentiable FEM as an alternative},
+      author={Yongjin Choi and Hyeonbin Moon and Seunghwa Ryu},
+      year={2026},
+      eprint={2606.03210},
+      archivePrefix={arXiv},
+      primaryClass={cs.CE},
+      url={https://arxiv.org/abs/2606.03210},
+}
+```
 
 ## License
 
